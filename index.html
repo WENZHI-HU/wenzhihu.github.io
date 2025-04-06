@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="starfield"></div>
+
+  <nav class="nav-bar">
+    <a href="#home" class="nav-link">Initial Page</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#projects" class="nav-link">Project</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+
+
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title animated-title">ME PAGE</h1>
+      <p class="hero-subtitle animated-subtitle">BY H5, CSS, JS</p>
+      <button class="hero-button" onclick="scrollToSection('about')">Know More</button>
+    </div>
+  </section>
+
+  <section id="about" class="content-section">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      Cardiff University, Computer Science, 2022-2025
+      Imperial College London, ACSE, 2025-2026
+    </p>
+  </section>
+
+  <section id="projects" class="content-section">
+    <h2 class="section-title">My Project</h2>
+    <div class="project-list">
+      <div class="project-item">
+        <h3>Python Flask web shopping website (personal)</h3>
+        <p>A local web created by HTML, Python, SQLite, JavaScript and other tools. </p>
+        <p>Users can be allowed to add, select, view shopping websites, and make simulated payments.</p>
+      </div>
+      <div class="project-item">
+        <h3>Raspberry Pi Sailor Management System (team)</h3>
+        <p>A management system made by Raspberry Pi, NFC board, PyQT5, and SQLite. Allow administrator to login, operate, batch import of crew data, and support deletion and modification operations. Allow crew members
+            to log in through NFC to ensure safe travel.<br />
+            This ensures a secure and efficient process.</p>
+      </div>
+      <div class="project-item">
+        <h3>Android Based Facial Emotion Recognition App</h3>
+        <p>Based on Opencv, developed an app used to detect people’s facial emotion and voice emotion, combined together and get a reasoning
+            results.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="content-section contact-section">
+    <h2 class="section-title">Contact Me</h2>
+    <p class="section-text">
+      550677115@qq.com
+    </p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 My Cool GitHub Page</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
